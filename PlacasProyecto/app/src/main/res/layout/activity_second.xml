@@ -86,6 +86,7 @@
         android:layout_marginRight="32dp"
         android:layout_marginBottom="16dp"
         android:text="Buscar"
+        app:backgroundTint="#3F51B5"
         app:layout_constraintBottom_toTopOf="@+id/lista1_second"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/caja1_second"

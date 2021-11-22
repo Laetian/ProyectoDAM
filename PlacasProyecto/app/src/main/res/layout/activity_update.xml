@@ -205,9 +205,9 @@
                 android:insetRight="32dp"
                 android:insetBottom="32dp"
                 android:text="Actualizar"
-                android:textColor="#FF9800"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp"
-                app:backgroundTint="#009688" />
+                app:backgroundTint="#3F51B5" />
 
         </LinearLayout>
     </ScrollView>

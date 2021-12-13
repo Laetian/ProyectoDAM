@@ -37,6 +37,5 @@ public class StartActivity extends AppCompatActivity {
         Timer t= new Timer();
         t.schedule(tt, 3000);
 
-
     }
 }

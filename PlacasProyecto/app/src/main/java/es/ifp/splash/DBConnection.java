@@ -12,19 +12,18 @@ import java.util.Map;
 public class DBConnection extends StringRequest {
 
     private static final String ruta = "https://splashplacas.000webhostapp.com/androidstudio/SplashPlacas/registro.php";
-    private Map<String, String> parametros;
-    public DBConnection (String usuario, String clave, String level, Response.Listener<String> listener)
-    {
+    private final Map<String, String> parametros;
+
+    public DBConnection(String usuario, String clave, String level, Response.Listener<String> listener) {
         super(Request.Method.POST, ruta, listener, null);
         parametros = new HashMap<>();
-        parametros.put("usuario", usuario+"");
-        parametros.put("clave", clave+"");
-        parametros.put("level", level+"");
+        parametros.put("usuario", usuario + "");
+        parametros.put("clave", clave + "");
+        parametros.put("level", level + "");
     }
 
     @Override
-    protected Map<String, String> getParams()
-    {
+    protected Map<String, String> getParams() {
         return parametros;
     }
 }
